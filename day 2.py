@@ -1,7 +1,10 @@
-print(type(two_digit_number))
-print("hello"[0])
-first_digit = int(two_digit_number[0])
-second_digit = int(two_digit_number[1])
+#   dont change the code below
+height = floot(inout("enter your height in m: "))
+weight = float(input("inter your weight in kg: "))
+#   dont change the coad above
 
-result = first_digit + second_digit
-print("two_digit_number")
+#write your coad above
+
+bhim = round(weight / height ** 2)
+if bmi < 18.5:
+    print(your bmi is {bmi}, you rae underweight)
