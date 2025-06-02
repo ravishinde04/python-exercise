@@ -1,18 +1,19 @@
-#   import random 
+#   dont change the code below
+row1 = ["  ","  ","  "]
+row2 = ["  ","  ","  "]
+row3 = ["  ","  ","  "]
+map = [row1, row2,row3]
+print(f"{row1}\n{row2}\n{row3}")
+postiton = input("where do you want to put the treasure? ")
+#   dont change the code above
 
-#   randominteger = random.randint(1, 10)
-#   prinr(randomintegeter)
+#write your code below this row
+horizonal = position[0] #2
+vertical = position[1] #3
 
-#   randomflote = random.random() * 5
-#   print(randomflote)
+map[vertical - 1][horizonal - 1] = "x"
 
-#   love_score = random.randdnt(1, 100)
-#   print(f"your love score is {love_score}")
+#write your code above this row
 
-states_of_america = ["delaware", "pennsylvania"]
-
-states_of_america[1] = "pancilvania"
-
-states_of_america.extend(["angelaland", "jack bauer land"])
-
-print(states_of_america)
+#   dont change the code below
+print(f"{row1}\n{row2}\n{row3}")
